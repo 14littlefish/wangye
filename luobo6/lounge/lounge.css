@@ -6,17 +6,19 @@ body {
 
 h1, h2 {
 	color: #007e7e; /* 将标题设置为一种青绿色，使他和 logo 更相合 */
+  font-weight: 600;
 }
 
 h1 {
 	font-size: 1.5em;
+  font-weight: 200;
 }
 
 h2 {
 	font-size: 1.3em;
 }
 
-#guarantee {
+.guarantee {
   border-color:        white;
   border-width:        1px;
   border-style:        dashed;
@@ -109,4 +111,8 @@ a:hover {
 .elixirs a:hover {
   background: #f88396;
   color: #0d5353;
+}
+
+p{
+  color: red;
 }
