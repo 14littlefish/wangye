@@ -39,6 +39,7 @@ h2 {
   border-radius: 50%;*/
   border-top-right-radius: 2em;
   border-bottom-left-radius: 2em;
+  font-size: 1vw;
 }
 
 .elixirs{
