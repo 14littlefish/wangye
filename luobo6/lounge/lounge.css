@@ -53,6 +53,7 @@ h2 {
   repeat-x;
   text-align: center;
   line-height: 1;
+  float: right;
 }
 
 .elixirs h2 {
@@ -114,6 +115,6 @@ a:hover {
   color: #0d5353;
 }
 
-p{
+/*p{
   color: red;
-}
+}*/
