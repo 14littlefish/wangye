@@ -131,3 +131,15 @@ a:hover {
 	display: inline-block;
 	width: 30px;
 }
+
+h1:hover{
+  background-color:#d12c47;
+}
+
+a:hover{
+  background-color: #d12c47;
+}
+
+a:hover:active{
+  background-color: #d12c47;
+}
