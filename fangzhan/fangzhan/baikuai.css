@@ -1,4 +1,5 @@
 body,div{
+  /* display: inline; */
   margin: 0;
   padding: 0;
 }
@@ -10,9 +11,9 @@ body,div{
 }
 
 .imgbox{
-    background-size: cover;
-    padding-top: 20px;
-    margin-left: 492.5px;
+  background-size: cover;
+  padding-top: 20px;
+  margin-left: 492.5px;
 }
 
 .imgbox>img{
@@ -20,10 +21,17 @@ body,div{
   height: 75px;
 }
 
+.imgbox>h3{
+  padding-top: 0;
+  margin-top: 3px;
+  font-size: 1.0em;
+  font-weight: bold;
+}
+
 .f h3{
   width: 150px;
   height: 40px;
-	background-color: #19a0ac;
+	background-color:none;
 	color: white;
 	padding-right: 0px;
 	padding-top: 3px;
@@ -39,10 +47,10 @@ body,div{
 
 .f img{
   width: 50px;
-  height: 40px;
-	background-color: #19a0ac;
+  height: 48px;
+	background-color:none;
 	padding-top:0px;
-  margin-top: -14px;
+  margin-top: -20px;
 }
 
 .f1{
@@ -69,4 +77,42 @@ body,div{
 .shower{
   filter: alpha(Opacity=100);
   opacity: 1;
+}
+
+.tupianwenzi{
+  display: inline;
+  width: 1000px;
+  height: 531px;
+}
+
+.partbox{
+  margin-bottom: 25px;
+}
+
+.wenzi{
+  margin-left: 30px;
+}
+
+.part{
+  display: inline;
+  display: flex;  /*弹性盒子*/
+  flex-direction: row;  /*从左向右*/
+  align-items:top;  /*居中*/
+  text-align: center;
+}
+
+img{
+  width: 200px;
+  height: 152px;
+}
+
+p{
+  display: inline;
+  margin: 0;
+}
+
+.lankuai{
+  width: 70px;
+  height: 29px;
+  background-color: #3c70b4;;
 }
